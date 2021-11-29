@@ -4,7 +4,7 @@ import { CreateDomainDto } from './dto/createDomain.dto';
 import { Res } from '@nestjs/common'
 import { Schema as MongooseSchema } from 'mongoose';
 import { UpdateDomainDto } from './dto/updateDomain.dto';
-import { GetQueryDto } from 'src/dto/getQueryDto';
+import { GetQueryDto } from '../../dto/getQueryDto';
 
 @Controller('domains')
 export class DomainsController {

@@ -2,7 +2,7 @@ import { Controller, Post, Body, HttpStatus, Put, Param, Get, Query, Delete } fr
 import { OrdersService } from './orders.service';
 import { CreateOrderDto } from './dto/createOrder.dto';
 import { Res } from '@nestjs/common';
-import { GetQueryDto } from 'src/dto/getQueryDto';
+import { GetQueryDto } from '../../dto/getQueryDto';
 
 @Controller('orders')
 export class OrdersController {
